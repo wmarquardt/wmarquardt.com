@@ -28,7 +28,7 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  showLastUpdated = true
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
 
@@ -45,6 +45,7 @@ paginate = 5
 
 [languages]
   [languages.en]
+    contentDir = "content/english"
     languageName = "English"
     title = "William Marquardt"
     subtitle = "Software engineer"
@@ -66,12 +67,14 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+        
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
 
-  [languages.pt_br]
+  [languages.pt-br]
+    contentDir = "content/portuguese"
     languageName = "Português"
     title = "William Marquardt"
     subtitle = "Engenheiro de Software"
@@ -84,12 +87,12 @@ paginate = 5
     missingContentMessage = "Págna não encontrada..."
     missingBackButtonLabel = "Voltar para a página inicial"
 
-    [languages.pt_br.params.logo]
+    [languages.pt-br.params.logo]
       logoText = "wmarquardt.com"
       logoHomeLink = "/"
 
-    [languages.pt_br.menu]
-      [[languages.pt_br.menu.main]]
+    [languages.pt-br.menu]
+      [[languages.pt-br.menu.main]]
         identifier = "sobre"
         name = "Sobre"
         url = "/sobre"
