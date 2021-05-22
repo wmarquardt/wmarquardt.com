@@ -15,17 +15,22 @@ paginate = 8
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
+  
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
 
 [params]
-  author = "John Doe"
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  menu_item_separator = " - "
-  [params.style]
-    darkestColor = "#d35050"
-    darkColor = "#212121"
-    lightColor = "#f5e3e0"
-    lightestColor = "#f5f5f5"
-    primaryColor = "#ffffff"
+  author = "William Marquardt"
+  description = "I'm a fiance, drummer, gamer, cat father, and also software engineer"
+  menu_item_separator = " | "
+  # [params.style]
+  #   darkestColor = "#d35050"
+  #   darkColor = "#212121"
+  #   lightColor = "#f5e3e0"
+  #   lightestColor = "#f5f5f5"
+  #   primaryColor = "#ffffff"
 
   [[params.social]]
     icon = "github"
@@ -34,10 +39,5 @@ paginate = 8
 
   [[params.social]]
     icon = "linkedin"
-    name = "My Github"
+    name = "My Linkedin"
     url = "https://github.com/wmarquardt"
-
-  [[params.social]]
-    icon = "github"
-    name = "My Github"
-    url = "https://github.com/vaga"
