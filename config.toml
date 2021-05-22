@@ -10,21 +10,25 @@ paginate = 8
     identifier = "home"
     name = "Home"
     url = "/"
+    weight = 1
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
+    weight = 2
 
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
+    weight = 3
   
   [[menu.main]]
     identifier = "cv"
     name = "CV"
     url = "/cv/"
+    weight = 4
 
 [params]
   author = "William Marquardt"
@@ -40,9 +44,9 @@ paginate = 8
   [[params.social]]
     icon = "github"
     name = "My Github"
-    url = "https://github.com/vaga"
+    url = "https://github.com/wmarquardt"
 
   [[params.social]]
     icon = "linkedin"
     name = "My Linkedin"
-    url = "https://github.com/wmarquardt"
+    url = "https://www.linkedin.com/in/williammqt/"
