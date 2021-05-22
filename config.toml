@@ -7,6 +7,11 @@ paginate = 8
  
 [menu]
   [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
