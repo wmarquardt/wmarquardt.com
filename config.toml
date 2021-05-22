@@ -60,18 +60,23 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "wmarquardt.com"
-      logoHomeLink = "/"
+      logoHomeLink = "/" 
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+  # [languages.en.menu]
+  #   [[languages.en.menu.main]]
+  #     identifier = "about"
+  #     name = "About"
+  #     url = "/about"
         
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      
+      [[languages.en.menu.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "/cv"
 
   [languages.pt-br]
     contentDir = "content/portuguese"
@@ -91,9 +96,19 @@ paginate = 5
       logoText = "wmarquardt.com"
       logoHomeLink = "/"
 
-    [languages.pt-br.menu]
-      [[languages.pt-br.menu.main]]
-        identifier = "sobre"
-        name = "Sobre"
-        url = "/sobre"
+  #  [languages.pt-br.menu]
+  #     [[languages.pt-br.menu.main]]
+  #       identifier = "sobre"
+  #       name = "Sobre"
+  #       url = "/pt-br/sobre"
+    
+    [[languages.pt-br.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/pt-br/posts"
+    
+    [[languages.pt-br.menu.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "/pt-br/cv"
   
