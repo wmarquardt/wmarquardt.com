@@ -1,0 +1,5 @@
+
+<span class="inline-svg" >
+    {{ $file := printf "%s%s%s" "fontawesome/" (index .Params 0) ".svg"}}
+    {{ readFile ( print $file ) | safeHTML  }}
+</span>

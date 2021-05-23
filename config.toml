@@ -25,16 +25,18 @@ paginate = 8
     weight = 3
   
   [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv/"
-    weight = 4
-  
-  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
     weight = 4
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 5
+  
+  
 
 [params]
   author = "William Marquardt"
