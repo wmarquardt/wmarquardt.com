@@ -5,9 +5,19 @@
     <link>/tags/</link>
     <description>Recent content in Tags on William Marquardt</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 May 2021 19:42:02 -0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>post</title>
+      <link>/tags/post/</link>
+      <pubDate>Sat, 22 May 2021 19:42:02 -0300</pubDate>
+      
+      <guid>/tags/post/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

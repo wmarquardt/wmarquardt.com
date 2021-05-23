@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homepage on William Marquardt</title>
-    <link>/</link>
-    <description>Recent content in Homepage on William Marquardt</description>
+    <title>Cvs on William Marquardt</title>
+    <link>/cv/</link>
+    <description>Recent content in Cvs on William Marquardt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 May 2021 19:47:51 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 May 2021 11:48:57 -0300</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -34,43 +34,6 @@ Experiência Globo Engenheiro de software Jan 2021 - Atualmente
  Trade na Mão Líder Técnico Abr 2020 - Jan 2021 (10 meses)
  Em 2020 comecei a trabalhar como tech lead na Trade na Mão. Foi uma expêriencia totalmente nova, porque além das atribuições técnicas, este foi meu primeiro contato com liderança, que foi o meu maior desafio neste período.
   Pricipais funções:  Definição de arquitetura e tecnologias de novos serviços; Desenvolvimento de aplicações Python / NodeJS; Implementação integração contínua utilizando CircleCI; Implementação de VPN; Implementação de monitoramento dos servidores utilizando MUNIN; Implementação de deploy automático; Implementação de políticas de segurança; Participação no processo de contratação / entrevista técnica; SCRUM master; Referência técnica para o time;    Principais Tecnologias: Python, Go, Docker, NodeJS, Redis, MySQL, SocketIO, Electron, Nginx, Cloudflare.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Sat, 22 May 2021 21:21:58 -0300</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Hey, you can contact me to talk about anything, or even contract me to a freelance job :)
-Just send mail to williammqt@gmail.com</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>/posts/hello_world/</link>
-      <pubDate>Sat, 22 May 2021 19:42:02 -0300</pubDate>
-      
-      <guid>/posts/hello_world/</guid>
-      <description>Hello world It&amp;rsquo;s just a hello world :)</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>/resume/</link>
-      <pubDate>Sat, 22 May 2021 18:17:00 -0300</pubDate>
-      
-      <guid>/resume/</guid>
-      <description> English Português  </description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description></description>
     </item>
     
   </channel>
