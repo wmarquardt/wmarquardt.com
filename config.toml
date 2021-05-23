@@ -2,6 +2,8 @@ baseURL = "/"
 title = "William Marquardt"
 theme = "m10c"
 paginate = 8
+googleAnalytics = "UA-136426542-1"
+
 
 # [params]
  
