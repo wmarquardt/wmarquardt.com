@@ -6,11 +6,11 @@ paginate = 8
 # [params]
  
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+  # [[menu.main]]
+  #   identifier = "home"
+  #   name = "Home"
+  #   url = "/"
+  #   weight = 1
 
   [[menu.main]]
     identifier = "about"
@@ -22,7 +22,7 @@ paginate = 8
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 3
+    weight = 5
   
   [[menu.main]]
     identifier = "contact"
@@ -34,13 +34,13 @@ paginate = 8
     identifier = "resume"
     name = "Resume"
     url = "/resume/"
-    weight = 5
+    weight = 3
   
   
 
 [params]
   author = "William Marquardt"
-  description = "I'm a husband, drummer, gamer, cat father, and also software engineer"
+  description = "I'm husband, drummer, gamer, cat father, and also software engineer"
   menu_item_separator = " | "
   # [params.style]
   #   darkestColor = "#d35050"
@@ -51,20 +51,20 @@ paginate = 8
 
   [[params.social]]
     icon = "github"
-    name = "My Github"
+    name = "Github"
     url = "https://github.com/wmarquardt"
 
   [[params.social]]
     icon = "linkedin"
-    name = "My Linkedin"
+    name = "Linkedin"
     url = "https://www.linkedin.com/in/williammqt/"
   
   [[params.social]]
     icon = "whatsapp"
-    name = "My Whatsapp"
+    name = "Whatsapp"
     url = "https://wa.me/5541984282865"
   
   [[params.social]]
-    icon = "tryhackme"
+    icon = "terminal"
     name = "Tryhackme"
-    url = "https://wa.me/5541984282865"
+    url = "https://tryhackme.com/p/wmarquardt"

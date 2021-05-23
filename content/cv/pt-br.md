@@ -14,7 +14,7 @@ _Jan 2021 - Atualmente_
 
 ## Trade na Mão
 ### Líder Técnico
-_Abr_ 2020 - Jan 2021 (10 meses)_
+_Abr 2020 - Jan 2021 (10 meses)_
 
 > Em 2020 comecei a trabalhar como tech lead na Trade na Mão. Foi uma expêriencia totalmente nova,
 porque além das atribuições técnicas, este foi meu primeiro contato com liderança, que foi o meu maior
