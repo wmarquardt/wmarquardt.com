@@ -29,10 +29,16 @@ paginate = 8
     name = "CV"
     url = "/cv/"
     weight = 4
+  
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
 [params]
   author = "William Marquardt"
-  description = "I'm a fiance, drummer, gamer, cat father, and also software engineer"
+  description = "I'm a husband, drummer, gamer, cat father, and also software engineer"
   menu_item_separator = " | "
   # [params.style]
   #   darkestColor = "#d35050"
@@ -50,3 +56,13 @@ paginate = 8
     icon = "linkedin"
     name = "My Linkedin"
     url = "https://www.linkedin.com/in/williammqt/"
+  
+  [[params.social]]
+    icon = "whatsapp"
+    name = "My Whatsapp"
+    url = "https://wa.me/5541984282865"
+  
+  [[params.social]]
+    icon = "tryhackme"
+    name = "Tryhackme"
+    url = "https://wa.me/5541984282865"
