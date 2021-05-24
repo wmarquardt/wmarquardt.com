@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://wmarquardt.com/"
 title = "William Marquardt"
 theme = "m10c"
 paginate = 8

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvs on William Marquardt</title>
-    <link>/cv/</link>
+    <link>https://wmarquardt.com/cv/</link>
     <description>Recent content in Cvs on William Marquardt</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 May 2021 11:48:57 -0300</lastBuildDate>
     
-	<atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wmarquardt.com/cv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>William Marquardt - Resume</title>
-      <link>/cv/en/</link>
+      <link>https://wmarquardt.com/cv/en/</link>
       <pubDate>Sun, 23 May 2021 11:48:57 -0300</pubDate>
       
-      <guid>/cv/en/</guid>
+      <guid>https://wmarquardt.com/cv/en/</guid>
       <description>Back | Download  
 Experience Globo Software engineer Jan 2021 - Present
  Globo.com is the Internet branch of Grupo Globo, the biggest media conglomerate in Latin America, with offices in Rio de Janeiro, São Paulo and Porto Alegre.
@@ -25,10 +25,10 @@ Experience Globo Software engineer Jan 2021 - Present
     
     <item>
       <title>William Marquardt - Currículo</title>
-      <link>/cv/pt-br/</link>
+      <link>https://wmarquardt.com/cv/pt-br/</link>
       <pubDate>Sun, 23 May 2021 11:48:53 -0300</pubDate>
       
-      <guid>/cv/pt-br/</guid>
+      <guid>https://wmarquardt.com/cv/pt-br/</guid>
       <description>Voltar | Baixar  
 Experiência Globo Engenheiro de software Jan 2021 - Atualmente
  Trade na Mão Líder Técnico Abr 2020 - Jan 2021 (10 meses)
