@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{.Content}}
+
+{{ partial "github.html" }}
+<style>
+  #breadcrumbs{display: none;}
+</style>
+
+
+
+{{ if .Params.skills }} 
+<hr>
+    <h3>Skills</h3>
+    <ul class="ul-skill">
+    {{ range .Params.skills }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+{{ end }}
+
+<script>
+  var content = document.getElementById("app-container");
+var links = content.getElementsByTagName("a");
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+   if (links[i].hostname != window.location.hostname) {
+      links[i].target = '_blank';
+   } 
+}
+</script>
+{{ end }}
+
+

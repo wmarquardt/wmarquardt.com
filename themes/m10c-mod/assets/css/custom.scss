@@ -1,0 +1,80 @@
+ul.ul-repos{
+    white-space:nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+
+    li.list-repos {
+        display: inline-flex;
+        border: 1px solid rgba(255,255,255,.1);
+        min-height: 100px;
+        padding: 5px;
+        border-radius: 3px;
+        margin-left: 10px;
+        background-color: rgba(black, .3);
+        font-weight: bold;
+        transition: all 0.5s;
+        a:hover{
+             div   {
+              color:#333;
+            }
+            background-color: #57cc8a;
+            border-color: #57cc8a;
+        }
+    }
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #57cc8a #555;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #555;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #57cc8a;
+    border-radius: 20px;
+    border: 3px solid #555;
+  }
+
+  .inline-svg {
+    display: inline-block;
+    height: 1.15rem;
+    width: 1.15rem;
+    top: 0.15rem;
+    position: relative;
+  }
+
+  a + span.inline-svg{
+    fill: #57cc8a;
+  }
+
+  a{
+    fill: #57cc8a;
+  }
+
+  hr {
+    border: #57cc8a 1px solid; 
+  }
+
+ul.ul-skill {
+  margin-left: 0;
+  li {
+    background-color: #57cc8a;
+    border: 1px dotted green;
+    padding: 3px 10px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 4px;
+  }
+}

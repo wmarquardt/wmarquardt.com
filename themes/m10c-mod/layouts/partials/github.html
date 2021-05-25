@@ -1,0 +1,17 @@
+<h3>Top public repos</h3>
+<ul class="ul-repos">
+    {{ $urlPre := "https://api.github.com" }}
+    {{ $gitRep := getJSON $urlPre "/users/wmarquardt/repos?per_page=500&sort=pushed&type=public,internal" }}
+    {{ range first 10 $gitRep }}
+        <li class="list-repos">
+            <a href="{{ .html_url }}" target="_blank">
+                <div>
+                    <p>{{ .full_name }}</p>
+                {{if .stargazers_count}}
+                ★{{.stargazers_count}} 
+                {{end}}
+                </div>
+            </a>
+        </li>
+    {{ end }}
+  </ul>

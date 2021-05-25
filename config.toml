@@ -1,6 +1,6 @@
 baseURL = "https://wmarquardt.com/"
 title = "William Marquardt"
-theme = "m10c"
+theme = "m10c-mod"
 paginate = 8
 googleAnalytics = "UA-136426542-1"
 
