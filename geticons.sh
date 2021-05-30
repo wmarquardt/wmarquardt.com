@@ -1,28 +1,13 @@
 #!/bin/sh
 set -ex
-icons="github linkedin whatsapp"
-dest=fontawesome
-url=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/
+icons="github linkedin whatsapp terminal python arrow-circle-o-left arrow-circle-o-down"
+dest=forkawesome
+url=https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/svg/
 mkdir -p "${dest}"
 for icon in $icons; do
   icon="${icon}.svg"
   wget -O "${dest}/${icon}" "${url}/${icon}"
-done
 
-icons="arrow-alt-circle-down arrow-alt-circle-left"
-dest=fontawesome
-url=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/regular/
-mkdir -p "${dest}"
-for icon in $icons; do
-  icon="${icon}.svg"
-  wget -O "${dest}/${icon}" "${url}/${icon}"
-done
-
-icons="terminal"
-dest=fontawesome
-url=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/
-mkdir -p "${dest}"
-for icon in $icons; do
-  icon="${icon}.svg"
-  wget -O "${dest}/${icon}" "${url}/${icon}"
+  # add viewbox
+  sed -i 's/^<svg.*>$/<svg viewBox="0 0 1536 1792">/g' "${dest}/${icon}"
 done

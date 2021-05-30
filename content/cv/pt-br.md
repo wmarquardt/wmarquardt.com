@@ -3,7 +3,7 @@ title: "William Marquardt - Currículo"
 date: "2021-05-23T11:48:53-03:00"
 ---
 
-[{{< icon "arrow-alt-circle-left" >}} Voltar]({{< ref "/resume" >}} "Voltar") | [Baixar {{< icon "arrow-alt-circle-down" >}}](/downloads/resume-pt-br.pdf "Baixar currículo")
+[{{< icon "arrow-circle-o-left" >}} Voltar]({{< ref "/resume" >}} "Voltar") | [Baixar {{< icon "arrow-circle-o-down" >}}](/downloads/resume-pt-br.pdf "Baixar currículo")
 
 # Experiência
 ## Globo

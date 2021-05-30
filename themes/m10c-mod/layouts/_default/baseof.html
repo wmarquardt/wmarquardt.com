@@ -22,7 +22,6 @@
       <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "/avatar.jpeg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
       <h1>{{ .Site.Title }}</h1>
       {{- with .Site.Menus.main }}
-      {{ partial "fontawesome.html" "twitter" }} 
 
       <nav class="app-header-menu">
         {{- range $key, $item := . }}
@@ -52,4 +51,10 @@
       <p style="color: #555; text-align: center;">-- EOF --</p>
     </main>
   </body>
+  <script>
+    var x = document.getElementsByClassName("inline-svg");
+    for(y in x){
+      console.log(x[y].childNodes[1])
+    }
+  </script>
 </html>

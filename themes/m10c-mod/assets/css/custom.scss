@@ -46,12 +46,18 @@ ul.ul-repos{
   }
 
   .inline-svg {
-    display: inline-block;
-    height: 1.15rem;
-    width: 1.15rem;
-    top: 0.15rem;
-    position: relative;
+    display: inline-block !important;
+    height: 1.15rem !important;
+    width: 1.15rem !important;
+    top: 0.15rem !important;
+    position: relative !important;
+
+    svg {
+      width: 100% !important;
+      height: 100% !important;
+    }
   }
+
 
   a + span.inline-svg{
     fill: #57cc8a;

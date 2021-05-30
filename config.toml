@@ -70,3 +70,8 @@ googleAnalytics = "UA-136426542-1"
     icon = "terminal"
     name = "Tryhackme"
     url = "https://tryhackme.com/p/wmarquardt"
+  
+  [[params.social]]
+    icon = "python"
+    name = "Pypi"
+    url = "https://pypi.org/user/wmarquardt/"
