@@ -42,7 +42,7 @@ googleAnalytics = "UA-136426542-1"
 
 [params]
   author = "William Marquardt"
-  description = "I'm husband, drummer, gamer, cat father, and also software engineer"
+  description = "I'm a husband, drummer, gamer, cat father, and also a software engineer"
   menu_item_separator = " | "
   # [params.style]
   #   darkestColor = "#d35050"

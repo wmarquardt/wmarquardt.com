@@ -8,6 +8,6 @@ skills: ["Python", "Django", "Bash", "Go", "Javascript", "CSS3","Linux", "Git", 
 ---
 
 # Hi there 👋
-I'm Software Engineer with almost 10 years of experience, passionate about opensource, cybersecurity and software quality. I'm currently working at [Globo](https://www.vempraglobo.com.br/).
+I'm a Software Engineer with almost 10 years of experience, passionate about opensource, cybersecurity and software quality. I'm currently working at [Globo](https://www.vempraglobo.com.br/).
 
 ----
