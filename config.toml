@@ -4,9 +4,6 @@ theme = "m10c-mod"
 paginate = 8
 googleAnalytics = "UA-136426542-1"
 
-
-# [params]
- 
 [menu]
   # [[menu.main]]
   #   identifier = "home"
@@ -38,8 +35,6 @@ googleAnalytics = "UA-136426542-1"
     url = "/resume/"
     weight = 3
   
-  
-
 [params]
   author = "William Marquardt"
   description = "I'm a husband, drummer, gamer, cat father, and also a software engineer"
