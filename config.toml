@@ -56,10 +56,10 @@ googleAnalytics = "UA-136426542-1"
     name = "Linkedin"
     url = "https://www.linkedin.com/in/williammqt/"
   
-  [[params.social]]
-    icon = "whatsapp"
-    name = "Whatsapp"
-    url = "https://wa.me/5541984282865"
+  #[[params.social]]
+  #  icon = "whatsapp"
+  #  name = "Whatsapp"
+  #  url = "https://wa.me/5541984282865"
   
   [[params.social]]
     icon = "terminal"
