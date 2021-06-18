@@ -11,7 +11,7 @@ date: "2021-05-23T11:48:57-03:00"
 ### Software engineer
 _Jan 2021 - Present_
 
-> Globo.com is the Internet branch of Grupo Globo, the biggest media conglomerate in Latin America, with offices in Rio de Janeiro, São Paulo and Porto Alegre.
+> Globo.com is the Internet branch of Grupo Globo, the biggest tech media company Latin America, with offices in Rio de Janeiro, São Paulo and Porto Alegre.
 
 ---
 
@@ -19,9 +19,7 @@ _Jan 2021 - Present_
 ### Technical Lead
 _Apr 2020 - Jan 2021 (10 months)_
 
-> In 2020 I started working as a tech lead at Trade na Mão. It was a totally new experience, because, in
-addition to the technical assignments, this was my first contact with leadership, which was my biggest
-challenge in this period.
+> In 2020 I started working as a tech lead at Trade na Mão. My biggest challenge in this period was my first contact with leadership as it was a totally new experience for me.
 
 > #### Main activities:
 > - Definition of new services architecture and technologies;
@@ -42,11 +40,7 @@ challenge in this period.
 ## Navegg
 ### Software Engineer
 _Jun 2018 - Mar 2020 (1 year 10 months)_
-> After working for about a year and a half as a full-stack, I was promoted and started working exclusively
-with the back-end. This gave me the opportunity to work in areas that I have affinities with, such as
-infrastructure and security. I learned a lot about performance, scale, and quality. My biggest challenge
-in this period was to maintain a system with billions of daily requests in addition to implementing new
-technologies from POCs.
+> After working for about a year and a half as a full-stack, I was promoted and started working exclusively with the back-end. This gave me the opportunity to work in areas that I have great passion for, such as infrastructure and security. I learned a lot about performance, scale, and quality. The hardest obstacle to overcome was to maintain a system with billions of daily requests in addition to implementing new technologies from POCs.
 
 > #### Main activities:
 > Administration of Linux and FreeBSD systems;
@@ -88,7 +82,7 @@ for new features to deploy the application.
 _Sep 2013 - Oct 2016 (3 years 2 months)_
 > Canvas Studio was a company focused on digital solutions where I was a co-founder. We had the main
 > idea at the end of 2013 and in May 2014 we passed the selection process for the business incubator -
-> Mafratec, which worked at the University of Contestado.
+> Mafratec, which was based at the University of Contestado.
 
 > #### Main activities:
 > - Creation of institutional websites;
@@ -104,10 +98,7 @@ _Sep 2013 - Oct 2016 (3 years 2 months)_
 ### Software Developer
 _Mar 2011 - May 2014 (3 years 3 months)_
 
-> Since the beginning of my career I was very interested in software development, so the moment a
-vacancy appeared in the development area, I asked to take the place left by the former developer. I had
-little knowledge of programming and this was the opportunity I wanted to start putting this into practice
-and learn more.
+> Since the beginning of my career I was very interested in software development, so the moment an opportunity presented itself in the development industry, I decided to take advantage and rise to the occasion. Although it has always peaked my interest, I had little knowledge of programming and I wanted to start learning more and putting my new skills to practice.
 
 > #### Main activities:
 > - Development and maintenance of software for NF-e, CT-e, PAF / ECF, among others in the Visual
