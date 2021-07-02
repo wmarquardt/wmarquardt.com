@@ -43,17 +43,17 @@ _Jun 2018 - Mar 2020 (1 year 10 months)_
 > After working for about a year and a half as a full-stack, I was promoted and started working exclusively with the back-end. This gave me the opportunity to work in areas that I have great passion for, such as infrastructure and security. I learned a lot about performance, scale, and quality. The hardest obstacle to overcome was to maintain a system with billions of daily requests in addition to implementing new technologies from POCs.
 
 > #### Main activities:
-> Administration of Linux and FreeBSD systems;
-> Development of Python, Javascript and Bash applications;
-> Development of automated tests;
-> Database Administration Mysql, Cassandra, Aerospike and Redis;
-> Development and maintenance of highly scalable services;
-> VPN / DNS / Firewall configuration and maintenance;
-> Development of tools for intrusion testing;
-> Analysis and planning of new products;
-> MySQL tuning;
-> Development of unit test using Jasmine and Karma;
-> Development of integration test using Protractor;
+> - Administration of Linux and FreeBSD systems;
+> - Development of Python, Javascript and Bash applications;
+> - Development of automated tests;
+> - Database Administration Mysql, Cassandra, Aerospike and Redis;
+> - Development and maintenance of highly scalable services;
+> - VPN / DNS / Firewall configuration and maintenance;
+> - Development of tools for intrusion testing;
+> - Analysis and planning of new products;
+> - MySQL tuning;
+> - Development of unit test using Jasmine and Karma;
+> - Development of integration test using Protractor;
 
 > #### Main Technologies:
 > Python, Bash, Go, Cloudflare, MySQL, Cassandra, Aerospike, Redis, FreeBSD, Docker, Nginx, RabbitMQ, Karma, Jasmine, Protractor.
