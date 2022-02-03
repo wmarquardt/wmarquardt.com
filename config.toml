@@ -32,7 +32,7 @@ googleAnalytics = "UA-136426542-1"
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
-    url = "/resume/"
+    url = "/cv/en/"
     weight = 3
   
 [params]
