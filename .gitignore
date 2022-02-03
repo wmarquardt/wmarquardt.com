@@ -1,5 +1,6 @@
 *.swp
 .vscode/
 
+public/
 # sorry torvalds
 .DS_Store
