@@ -11,8 +11,20 @@ date: "2021-05-23T11:48:57-03:00"
 ### Software engineer
 _Jan 2021 - Present_
 
-> Globo.com is the Internet branch of Grupo Globo, the biggest tech media company Latin America, with offices in Rio de Janeiro, São Paulo and Porto Alegre.
+> At the beginning of 2021, I started to work at Globo, the biggest media-tech company in Latin America. I've Always been fascinating with Globo innovations and I always followed events and talks with Globo engineers. I am part of the DB-Dev Team, which creates solutions for Database admins. Our main product is the DBaaS, an open-source platform like Amazon RDS which provisions and manages databases on demand, currently compatible with Redis, MongoDB and MySQL databases.
 
+> #### Main Activities:
+> - Contribution in defining new technologies and architecture for new services;
+> - Implementing new features in Django application;
+> - Creating and maintaining some Flask APIs which works as integrated system;
+> - Implementing GCP integration;
+> - Migrating all databases infrastructure to GCP;
+> - Implementing new pipelines and integration tests using Cypress;
+> - Implementing Flask CI to APIs and migrate current test from Travis to Github CI;
+> - Implementing integrations across DBaaS and other platforms using REST APIs;
+
+> #### Main Technologies:
+> Python, Bash, Go, Django, Celery, Flask, GCP, Redis, Mysql, MongoDB, PubSub, Jenkins, Cypress, Docker, Tsuru
 ---
 
 ## Trade na Mão
