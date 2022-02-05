@@ -2,9 +2,14 @@
 title: "Homepage"
 date: "2021-05-22T19:47:51-03:00"
 layout: "home.html"
-skills: ["Python", "Django", "Bash", "Go", "Javascript", "CSS3","Linux", "Git", "MySQL", "Redis", "Mongodb", "Cassandra",
-         "GCP", "AWS", "Nginx", "Ansible", "C++", "AngularJS", "VueJS", "Electron", "Ionic", "Docker", "Docker Compose",
-         "Kubernetes", "RabbitMQ", "FreeBSD"]
+languages: ["Python", "Bash", "Go", "Javascript"]
+frameworks: ["Django", "Flask", "FastAPI", "AngularJS", "VueJS", "Electron", "Ionic"]
+databases: ["MySQL", "MongoDB", "Redis", "Memcached", "Aerospike", "Cassandra"]
+tests: ["Pytest", "Karma", "Jasmine", "Protractor", "Cypress"]
+os: ["Linux", "BSD"]
+clouds: ["GCP", "AWS", "Heroku", "IBM Cloud"]
+devops: ["Ansible", "Terraform", "Kubernetes", "CI/CD", "Jenkins"]
+tools: ["Git", "Nginx", "RabbitMQ", "Docker"]
 ---
 
 # Hi there 👋

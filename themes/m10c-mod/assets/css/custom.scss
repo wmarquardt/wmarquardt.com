@@ -1,3 +1,7 @@
+h3{
+  border-bottom: 1px solid #57cc8a;
+  line-height: 3em;
+}
 ul.ul-repos{
     white-space:nowrap;
     overflow-y: hidden;
@@ -8,7 +12,7 @@ ul.ul-repos{
         display: inline-flex;
         border: 1px solid rgba(255,255,255,.1);
         min-height: 100px;
-        padding: 5px;
+        padding: 10px;
         border-radius: 3px;
         margin-left: 10px;
         background-color: rgba(black, .3);
@@ -16,7 +20,7 @@ ul.ul-repos{
         transition: all 0.5s;
         a:hover{
              div   {
-              color:#333;
+              color:#FFF;
             }
             background-color: #57cc8a;
             border-color: #57cc8a;
@@ -29,16 +33,16 @@ ul.ul-repos{
     scrollbar-width: thin;
     scrollbar-color: #57cc8a #555;
   }
-  
+
   /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 12px;
   }
-  
+
   *::-webkit-scrollbar-track {
     background: #555;
   }
-  
+
   *::-webkit-scrollbar-thumb {
     background-color: #57cc8a;
     border-radius: 20px;
@@ -68,19 +72,27 @@ ul.ul-repos{
   }
 
   hr {
-    border: #57cc8a 1px solid; 
+    border: #57cc8a 1px solid;
   }
 
-ul.ul-skill {
-  margin-left: 0;
-  li {
-    background-color: #57cc8a;
-    border: 1px dotted green;
-    padding: 3px 10px;
-    color:white;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 8px;
-    margin-left: 4px;
+.skill-box{
+  display: flexbox;
+  span{
+    display: inline-flex;
+    font-size: 0.9em;
+  }
+  ul.ul-skill {
+    margin-left: 0 auto;
+    display: flex;
+    padding: 0;
+    li {
+      background-color: #57cc8a;
+      border: 1px dotted green;
+      padding: 3px 10px;
+      color:white;
+      display: inline-flex;
+      text-decoration: none;
+      margin-left: 5px;
+    }
   }
 }

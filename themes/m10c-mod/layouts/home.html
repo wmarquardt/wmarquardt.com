@@ -7,17 +7,79 @@
 </style>
 
 
-
-{{ if .Params.skills }} 
-<hr>
-    <h3>Skills</h3>
+<div class="skill-box">
+<h3>Skills</h3>
+{{ if .Params.languages }}
+    <span>Languages:</span>
     <ul class="ul-skill">
-    {{ range .Params.skills }}
+    {{ range .Params.languages }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+
+{{ end }}
+{{ if .Params.frameworks }}
+    <span>Frameworks:</span>
+    <ul class="ul-skill">
+    {{ range .Params.frameworks }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+
+{{ end }}
+{{ if .Params.tests }}
+    <span>Tests:</span>
+    <ul class="ul-skill">
+    {{ range .Params.tests }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+
+{{ end }}
+{{ if .Params.databases }}
+    <span>Databases:</span>
+    <ul class="ul-skill">
+    {{ range .Params.databases }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+
+{{ end }}
+{{ if .Params.clouds }}
+    <span>Clouds:</span>
+    <ul class="ul-skill">
+    {{ range .Params.clouds }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+
+{{ end }}
+{{ if .Params.os }}
+    <span>OS:</span>
+    <ul class="ul-skill">
+    {{ range .Params.os }}
       <li class="skill-range">{{ . }}</li>
     {{ end }}
     </ul>
 {{ end }}
+{{ if .Params.devops }}
+    <span>DevOps:</span>
+    <ul class="ul-skill">
+    {{ range .Params.devops }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
+{{ end }}
+{{ if .Params.tools }}
+    <span>Tools:</span>
+    <ul class="ul-skill">
+    {{ range .Params.tools }}
+      <li class="skill-range">{{ . }}</li>
+    {{ end }}
+    </ul>
 
+{{ end }}
+</div>
 <script>
   var content = document.getElementById("app-container");
 var links = content.getElementsByTagName("a");
@@ -25,7 +87,7 @@ var links = content.getElementsByTagName("a");
 for (var i = 0, linksLength = links.length; i < linksLength; i++) {
    if (links[i].hostname != window.location.hostname) {
       links[i].target = '_blank';
-   } 
+   }
 }
 </script>
 {{ end }}
