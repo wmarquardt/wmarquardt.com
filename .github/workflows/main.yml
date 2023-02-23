@@ -14,6 +14,12 @@ jobs:
         with:
           submodules: true 
           fetch-depth: 0 
+      
+      - name: Read .env
+        id: hugo-version
+        run: |
+          . ./.env
+          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
