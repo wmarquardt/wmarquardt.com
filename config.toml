@@ -1,8 +1,14 @@
 baseURL = "https://wmarquardt.com/"
-title = "William Marquardt"
+title = "William Marquardt :: Back-End engineer :: Python :: Cloud :: Security :: Cats :: Drums"
+subtitle = "William Marquardt"
 theme = "m10c-mod"
-paginate = 8
+paginate = 10
 googleAnalytics = "UA-136426542-1"
+
+
+
+[blackfriday]
+  hrefTargetBlank = true
 
 [menu]
   # [[menu.main]]
@@ -17,23 +23,35 @@ googleAnalytics = "UA-136426542-1"
   #   url = "/about/"
   #   weight = 2
 
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 5
+  #[[menu.main]]
+  #  identifier = "home"
+  #  name = "Home"
+  #  url = "/"
+  #  weight = 1
+
+  #[[menu.main]]
+  #  identifier = "posts"
+  #  name = "Posts"
+  #  url = "/posts/"
+  #  weight = 2
   
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
     url = "/cv/en/"
-    weight = 3
+    weight = 4
+  
+  [[menu.main]]
+    identifier = "songs"
+    name = "Songs"
+    url = "/songs/"
+    weight = 5
   
 [params]
   author = "William Marquardt"
@@ -70,3 +88,9 @@ googleAnalytics = "UA-136426542-1"
     icon = "python"
     name = "Pypi"
     url = "https://pypi.org/user/wmarquardt/"
+  
+  [[params.social]]
+    icon = "spotify"
+    name = "My band"
+    url = "https://open.spotify.com/artist/1c1ikPGXD9ukA2utz9jx0a?si=R6WDvQxUTtW7UmLQvGuyoQ"
+  

@@ -20,7 +20,9 @@
   <body>
     <header class="app-header">
       <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "/avatar.jpeg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
-      <h1>{{ .Site.Title }}</h1>
+      {{ $title_name := index (split .Site.Title "::") 0 }}
+
+      <h1>{{ $title_name }}</h1>
       {{- with .Site.Menus.main }}
 
       <nav class="app-header-menu">

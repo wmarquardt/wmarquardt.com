@@ -1,6 +1,6 @@
 #!/bin/sh
 set -ex
-icons="github linkedin whatsapp terminal python arrow-circle-o-left arrow-circle-o-down"
+icons="github linkedin whatsapp terminal python arrow-circle-o-left arrow-circle-o-down spotify"
 dest=forkawesome
 url=https://raw.githubusercontent.com/ForkAwesome/Fork-Awesome/master/src/icons/svg/
 mkdir -p "${dest}"

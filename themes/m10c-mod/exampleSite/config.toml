@@ -3,6 +3,7 @@ title = "Your title"
 themesDir = "../.."
 theme = "m10c"
 paginate = 8
+subtitle = "foo"
 
 [menu]
   [[menu.main]]

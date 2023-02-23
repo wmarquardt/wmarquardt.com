@@ -309,6 +309,7 @@ baseurl = ""
 languageCode = "en-us"
 title = "zafta - totally refreshing"
 MetaDataFormat = "toml"
+subtitle= "foo"
 :wq
 
 $
