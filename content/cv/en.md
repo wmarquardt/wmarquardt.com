@@ -1,6 +1,6 @@
 ---
 title: "William Marquardt - Resume"
-date: "2024-05-23T23:48:57-03:00"
+date: "2024-05-23T23:33:57-03:00"
 ---
 
 [{{< icon "arrow-circle-o-left" >}} Back]({{< ref "/" >}} "Back") | [Download {{< icon "arrow-circle-o-down" >}}](/downloads/resume-en.pdf "Download resume")
