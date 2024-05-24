@@ -1,15 +1,40 @@
 ---
 title: "William Marquardt - Resume"
-date: "2021-05-23T11:48:57-03:00"
+date: "2024-05-23T23:48:57-03:00"
 ---
 
 [{{< icon "arrow-circle-o-left" >}} Back]({{< ref "/" >}} "Back") | [Download {{< icon "arrow-circle-o-down" >}}](/downloads/resume-en.pdf "Download resume")
 
 # Experience
 
+## Loadsmart
+### Sr. Back End Engineer II
+
+_May 2022 – Present_
+
+> As a Software Engineer at Loadsmart, a leading logistics company, I began my first international professional experience. Joining the company in May 2022, I have been integral to the "Capacity Generation" team, focusing on microservices architecture.
+
+> In January 2023, I transitioned to the financial team, where I started working on exciting projects, including the freight audit and payments.
+
+> In December 2023, I was promoted while keeping my position in the same squad at Loadsmart.
+
+> #### Main Activities:
+> - Design new feature architecture and lead projects.
+> - Create experimental features to validate workflows, finding simple solutions to complex problems.
+> - Implement new features in a monolithic project.
+> - Host knowledge transfer (KT) sessions for the team.
+> - Actively participate in working groups.
+> - Maintain internal systems as part of a side squad.
+> - Optimize code performance.
+> - Participate in and lead initiatives to improve code quality and developer productivity.
+> - Take on the role of tech lead twice following a tech lead rotation between SR. team members.
+
+> #### Main Technologies:
+>  DevOps, Django REST Framework, Python, Amazon Web Services (AWS), Terraform, System Architecture, PostgreSQL, Team Leadership
+
 ## Globo
 ### Software engineer
-_Jan 2021 - Present_
+_Jan 2021 - Apr 2022_
 
 > At the beginning of 2021, I started to work at Globo, the biggest media-tech company in Latin America. I've Always been fascinating with Globo innovations and I always followed events and talks with Globo engineers. I am part of the DB-Dev Team, which creates solutions for Database admins. Our main product is the DBaaS, an open-source platform like Amazon RDS which provisions and manages databases on demand, currently compatible with Redis, MongoDB and MySQL databases.
 

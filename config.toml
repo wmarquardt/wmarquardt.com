@@ -55,7 +55,7 @@ googleAnalytics = "G-Y9Q4997WY4"
   
 [params]
   author = "William Marquardt"
-  description = "I'm a husband, drummer, gamer, cat father, and also a software engineer"
+  description = "I'm a drummer, gamer, cat father, and also a software engineer"
   menu_item_separator = " | "
   # [params.style]
   #   darkestColor = "#d35050"
